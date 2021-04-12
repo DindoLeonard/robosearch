@@ -1,0 +1,16 @@
+/* .robotsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 5px;
+  margin: 2px 100px;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+} */
+
+.robotsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2px 100px;
+}
